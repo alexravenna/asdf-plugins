@@ -1,0 +1,69 @@
+repo_name: alexravenna/asdf-plugins
+report_id: b01fdb50f854812dc4bbb05f99a1a124
+version: 0.1
+repo_type: Public
+timestamp: '2024-02-13T11:03:13+00:00'
+requested_by: johnmartel
+provider: github
+branch: master
+detected_tools_count: 5
+tools:
+- name: Git
+  description: Fast, scalable, distributed revision control system
+  website_url: http://git-scm.com/
+  open_source: true
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Version Control System
+  image_url: https://img.stackshare.io/service/1046/git.png
+  detection_source_url: https://github.com/alexravenna/asdf-plugins
+  detection_source: Repo Metadata
+- name: GitHub Actions
+  description: Automate your workflow from idea to production
+  website_url: https://github.com/features/actions
+  open_source: false
+  hosted_saas: true
+  category: Build, Test, Deploy
+  sub_category: Continuous Integration
+  image_url: https://img.stackshare.io/service/11563/actions.png
+  detection_source_url: https://github.com/alexravenna/asdf-plugins/blob/master/.github/workflows/lint.yml
+  detection_source: ".github/workflows/lint.yml"
+  last_updated_by: dependabot[bot]
+  last_updated_on: 2023-11-08 11:17:02.000000000 Z
+- name: Kubernetes
+  description: Manage a cluster of Linux containers as a single system to accelerate
+    Dev and simplify Ops
+  website_url: http://kubernetes.io/
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Container Tools
+  image_url: https://img.stackshare.io/service/1885/21_d3cvM.png
+  detection_source_url: https://github.com/alexravenna/asdf-plugins/blob/master/plugins/kubectl
+  detection_source: plugins/kubectl
+  last_updated_by: Leo Shklovskii
+  last_updated_on: 2022-08-13 09:03:28.000000000 Z
+- name: Elasticsearch
+  description: Open Source, Distributed, RESTful Search Engine
+  website_url: https://www.elastic.co/products/elasticsearch
+  open_source: true
+  hosted_saas: false
+  category: Application Utilities
+  sub_category: Search as a Service
+  image_url: https://img.stackshare.io/service/841/Image_2019-05-20_at_4.58.04_PM.png
+  detection_source_url: https://github.com/alexravenna/asdf-plugins/blob/master/plugins/elasticsearch
+  detection_source: plugins/elasticsearch
+  last_updated_by: BSKY
+  last_updated_on: 2020-03-10 01:37:22.000000000 Z
+- name: Shell
+  description: A shell is a text-based terminal, used for manipulating programs and
+    files. Shell scripts typically manage program execution.
+  website_url: https://en.wikipedia.org/wiki/Shell_script
+  open_source: false
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Languages
+  image_url: https://img.stackshare.io/service/4631/default_c2062d40130562bdc836c13dbca02d318205a962.png
+  detection_source_url: https://github.com/alexravenna/asdf-plugins
+  detection_source: Repo Metadata
